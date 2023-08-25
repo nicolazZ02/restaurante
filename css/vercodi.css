@@ -1,0 +1,30 @@
+/*Estilos input*/
+.codi1{
+    width: 100%;
+    max-width: 600px;
+    height: 470px;
+    margin-top:40px;
+    margin-left:390px;
+    border-radius: 15px;
+    background: #CCC7C5;
+}
+p{
+    font-size: 21px;
+    margin-left: 120px;
+    position: relative;
+    top: 20px;
+}
+
+.inp{
+    width: 190px;
+    
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #45494C;
+    font-size: 18px;
+    color: #000;
+    padding: 8px 0;
+    margin-top: 120px;
+    margin-left: 120px;
+}

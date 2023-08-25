@@ -1,0 +1,110 @@
+
+.form {
+width: 100%;
+max-width: 600px;
+height: 470px;
+margin-top:40px;
+margin-left:390px;
+border-radius: 15px;
+display: flex;
+background-color:#CCC7C5;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+h1{
+font-size: 21px;
+position: relative;
+top:-20px;
+font-family: helvetica;
+}
+a{
+position: relative;
+font-size: 19px;
+top:-90px;
+margin-left:34rem;
+text-decoration:none;
+color:black;
+}
+
+/*Estilos Inputs*/
+
+.input-container{
+   
+    width: 350px;
+    position: relative;
+    margin: 0.8rem;
+}
+.label{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: all 0.2%;
+    padding: 0.2px;
+    z-index:1;
+    color: #b3b3b3;
+}
+.text-input{
+    padding: 0.8rem;
+    width: 100%;
+    height: 100%;
+    
+    border: 2px solid #2f2c45;
+    background: #272530;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    transition: all 0.3s;
+    color: #fff;
+}
+.label::before{
+    content: "";
+    height: 5px;
+    background: #272530;
+    
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+.text-input:focus{
+    border: 2px solid #7e4ccb;
+}
+.text-input:focus + .label, .filled{
+    top: -10px;
+    color: #7e4ccb;
+    font-size: 14px;
+}
+.text-input::placeholder{
+    font-size: 16px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.text-input:focus::placeholder{
+    opacity: 1;
+}
+button{
+    
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 18px;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #fff;
+}
+button:hover{
+    box-shadow: -6px -6px 12px #c5c5c5,
+    6px 6px 12px #fff;
+}
+.btn{
+    position: relative;
+    top: 10px;
+    margin-left: 127px;
+}
+/*Fin estilos inputs*/
